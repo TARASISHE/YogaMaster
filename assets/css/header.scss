@@ -258,7 +258,7 @@ table {
         background-color: #FFFFFF;
 
         &__container {
-            max-width: 592px;
+            max-width: 785px;
             margin: 0 auto;
         }
 
@@ -376,7 +376,135 @@ table {
     }
 }
 
-@media screen and (max-width:592px) {
+@media screen and (max-width:543px) {
+    .header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        background-color: #FFFFFF;
+
+        &__container {
+            max-width: 375px;
+            margin: 0 auto;
+        }
+
+        &__menu {}
+
+        &__burger {
+            display: block;
+            position: relative;
+            width: 10%;
+            height: 5px;
+            z-index: 30;
+            margin-top: 10px;
+            margin-right: 50px;
+        }
+
+        &__burger span {
+            position: absolute;
+            background-color: #55a6d4;
+            left: 330%;
+            width: 50%;
+            height: 5px;
+            bottom: 200%;
+        }
+
+        &__burger::before {
+            content: '';
+            background-color: #55a6d4;
+            position: absolute;
+            width: 50%;
+            height: 5px;
+            left: 330%;
+            top: 200%;
+        }
+
+        &__burger::after {
+            content: '';
+            background-color: #55a6d4;
+            position: absolute;
+            width: 50%;
+            height: 5px;
+            left: 330%;
+            bottom: 10%;
+        }
+    }
+
+    .menu {
+        padding: 32px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__logo {
+            display: flex;
+            float: left;
+        }
+
+        &__general {}
+
+        &__top {
+            display: none;
+            gap: 40px;
+            float: right;
+            margin-bottom: 45px;
+            align-items: baseline;
+        }
+
+        &__toplogo {}
+
+        &__currency {
+            color: #2D313680;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17px;
+            background-image: url(/assets/img/arrowdown.svg);
+            background-repeat: no-repeat;
+            background-position: 105px 6px;
+            padding-right: 20px;
+            cursor: pointer;
+
+            & a {
+                color: #536BB1;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17px;
+                padding-left: 5px;
+            }
+
+            & span {
+                cursor: default;
+            }
+        }
+
+        &__registration {
+            color: #536BB1;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 17px;
+        }
+
+        &__low {
+            display: none;
+        }
+
+        &__list {
+            text-transform: uppercase;
+            display: flex;
+            gap: 32px;
+            float: right;
+            color: #2D3136;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 17px;
+        }
+
+        &__item {}
+    }
+}
+
+@media screen and (max-width:375px) {
     .header {
         position: sticky;
         top: 0;
