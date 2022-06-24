@@ -424,13 +424,13 @@ table {
   }
   .videorow___maintitle {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: 0px;
     position: relative;
     font-size: 24px;
   }
   .videorow___maintitle::after {
-    display: none;
+    display: inline-block;
     content: '';
     width: 72px;
     height: 4px;
@@ -439,7 +439,7 @@ table {
     left: 0%;
     bottom: -25px;
   }
-  .videorow___subtitle {
+  .videorow____subtitle {
     color: #536BB1;
     font-size: 16px;
     font-weight: 700;
@@ -449,6 +449,7 @@ table {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 30px;
+    margin-bottom: 30px;
   }
   .videorow__first {
     position: relative;
@@ -633,13 +634,13 @@ table {
   }
   .teachers__title {
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: 60px;
     position: none;
     font-size: 24px;
     margin-left: 0px;
   }
   .teachers__title::after {
-    display: none;
+    display: block;
     content: '';
     width: 72px;
     height: 4px;
@@ -762,9 +763,10 @@ table {
     position: none;
     font-size: 24px;
     margin-left: 0px;
+    margin-bottom: 60px;
   }
   .teachers__title::after {
-    display: none;
+    display: block;
     content: '';
     width: 72px;
     height: 4px;
@@ -950,7 +952,7 @@ table {
 }
 
 .trainings__btn {
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   background-color: #536BB1;
   width: 254px;
@@ -1000,19 +1002,20 @@ table {
   left: 15%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1290px) {
   .content__trainings {
-    height: 550px;
-    margin-top: 0px;
+    height: 660px;
+    margin-top: 95px;
   }
   .trainings__main {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .trainings__img {
-    display: none;
     height: 580px;
     width: 500px;
     position: relative;
@@ -1022,14 +1025,13 @@ table {
   }
   .trainings__title {
     text-align: left;
-    margin-bottom: 0px;
-    margin-top: 50px;
+    margin-bottom: 76px;
+    margin-top: 90px;
     position: relative;
-    font-size: 24px;
-    margin-left: 20px;
+    font-size: 32px;
+    margin-left: 100px;
   }
   .trainings__title::after {
-    display: none;
     content: '';
     width: 72px;
     height: 4px;
@@ -1043,7 +1045,7 @@ table {
     font-weight: 600;
     line-height: 24px;
     color: #2D3136;
-    margin: 20px 0px 20px 20px;
+    margin: 33px 0px 50px 100px;
   }
   .trainings__subtitle span {
     font-size: 28px;
@@ -1057,6 +1059,149 @@ table {
     display: flex;
     position: relative;
     top: 0;
+    right: 180px;
+    z-index: 10;
+  }
+  .trainings__item {
+    width: 200px;
+    height: 180px;
+    background-color: #FFFFFF;
+    margin-right: 30px;
+  }
+  .trainings__icon {
+    padding: 20px 0px 16px 10px;
+  }
+  .trainings__text {
+    color: #2D3136;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-left: 10px;
+    max-width: 200px;
+  }
+  .trainings__btn {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #536BB1;
+    width: 254px;
+    height: 55.18px;
+    line-height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 0px 10px 0px 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 0;
+    left: 15%;
+    z-index: 10;
+    border: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+  .trainings__btn:hover {
+    opacity: 0.8;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .trainings__btnborder {
+    width: 254px;
+    height: 55.18px;
+    border: 2px solid #536BB1;
+    position: relative;
+    top: -45px;
+    left: 16%;
+    z-index: 2;
+  }
+  .trainings__btnborder:hover {
+    border: 2px solid #FFFF;
+  }
+  .trainings__grayblock {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(83, 107, 177, 0.1);
+    position: relative;
+    top: -85%;
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content__trainings {
+    height: 550px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .trainings__informblock {
+    margin-top: 300px;
+  }
+  .trainings__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .trainings__img {
+    display: block;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    z-index: 5;
+    margin-bottom: 200px;
+  }
+  .trainings__title {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    position: relative;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .trainings__title::after {
+    display: inline-block;
+    content: '';
+    width: 72px;
+    height: 4px;
+    background-color: #536BB1;
+    position: absolute;
+    left: 45%;
+    bottom: -25px;
+  }
+  .trainings__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2D3136;
+    margin: 20px 0px 20px 20px;
+    text-align: center;
+  }
+  .trainings__subtitle span {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #536BB1;
+  }
+  .trainings__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    bottom: 0;
     left: 0;
     z-index: 10;
     margin-left: 20px;
@@ -1082,7 +1227,7 @@ table {
     max-width: 200px;
   }
   .trainings__btn {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     background-color: #536BB1;
     width: 254px;
@@ -1095,7 +1240,7 @@ table {
     margin-top: 50px;
     position: relative;
     top: 0;
-    left: 5%;
+    left: 35%;
     z-index: 10;
     border: none;
     -webkit-transition: all 1s ease;
@@ -1113,7 +1258,7 @@ table {
     border: 2px solid #536BB1;
     position: relative;
     top: -45px;
-    left: 6%;
+    left: 36%;
     z-index: 2;
   }
   .trainings__btnborder:hover {
@@ -1132,51 +1277,70 @@ table {
 
 @media screen and (max-width: 785px) {
   .content__trainings {
-    height: 550px;
+    height: 100%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .trainings__informblock {
     margin-top: 0px;
   }
   .trainings__main {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .trainings__img {
-    display: none;
-    height: 580px;
-    width: 500px;
-    position: relative;
-    top: 0;
+    display: block;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: -20%;
     left: 0;
     z-index: 5;
+    margin-bottom: 0px;
   }
   .trainings__title {
-    text-align: left;
-    margin-bottom: 0px;
-    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 120px;
     position: relative;
     font-size: 24px;
     margin-left: 20px;
+    font-weight: 800;
   }
   .trainings__title::after {
-    display: none;
+    display: inline-block;
     content: '';
     width: 72px;
     height: 4px;
     background-color: #536BB1;
     position: absolute;
-    left: 0%;
+    left: 40%;
     bottom: -25px;
   }
   .trainings__subtitle {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     color: #2D3136;
     margin: 20px 0px 20px 20px;
+    text-align: center;
   }
   .trainings__subtitle span {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 24px;
     color: #536BB1;
@@ -1185,23 +1349,42 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: relative;
-    top: 0;
+    bottom: 0;
     left: 0;
     z-index: 10;
     margin-left: 20px;
   }
   .trainings__item {
-    width: 220px;
-    height: 200px;
+    width: 100%;
+    height: 180px;
     background-color: #FFFFFF;
     margin-right: 30px;
     -webkit-box-shadow: 2px 2px 2px #2D3136;
             box-shadow: 2px 2px 2px #2D3136;
     border: 1px solid #2D3136;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
   }
   .trainings__icon {
-    padding: 20px 0px 16px 10px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10px;
   }
   .trainings__text {
     color: #2D3136;
@@ -1209,10 +1392,11 @@ table {
     font-weight: 600;
     line-height: 20px;
     padding-left: 10px;
-    max-width: 200px;
+    max-width: 70%;
+    text-align: center;
   }
   .trainings__btn {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     background-color: #536BB1;
     width: 254px;
@@ -1222,10 +1406,10 @@ table {
     font-weight: 700;
     color: #FFFFFF;
     padding: 0px 10px 0px 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     position: relative;
     top: 0;
-    left: 5%;
+    left: 30%;
     z-index: 10;
     border: none;
     -webkit-transition: all 1s ease;
@@ -1243,7 +1427,7 @@ table {
     border: 2px solid #536BB1;
     position: relative;
     top: -45px;
-    left: 6%;
+    left: 32%;
     z-index: 2;
   }
   .trainings__btnborder:hover {
@@ -1262,49 +1446,67 @@ table {
 
 @media screen and (max-width: 543px) {
   .content__trainings {
-    height: 300px;
-    margin-top: 50px;
-    margin-bottom: 200px;
+    height: 100%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .trainings__informblock {
+    margin-top: 0px;
   }
   .trainings__main {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .trainings__img {
-    display: none;
-    height: 580px;
-    width: 500px;
-    position: relative;
-    top: 0;
+    display: block;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: -20%;
     left: 0;
     z-index: 5;
+    margin-bottom: 0px;
   }
   .trainings__title {
-    text-align: left;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 120px;
     position: relative;
     font-size: 24px;
     margin-left: 20px;
+    font-weight: 800;
   }
   .trainings__title::after {
-    display: none;
+    display: inline-block;
     content: '';
     width: 72px;
     height: 4px;
     background-color: #536BB1;
     position: absolute;
-    left: 0%;
+    left: 40%;
     bottom: -25px;
   }
   .trainings__subtitle {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     color: #2D3136;
     margin: 20px 0px 20px 20px;
+    text-align: center;
   }
   .trainings__subtitle span {
     font-size: 24px;
@@ -1316,29 +1518,42 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    margin-left: 20px;
+  }
+  .trainings__item {
+    width: 100%;
+    height: 180px;
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    -webkit-box-shadow: 2px 2px 2px #2D3136;
+            box-shadow: 2px 2px 2px #2D3136;
+    border: 1px solid #2D3136;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    position: relative;
-    top: 0;
-    left: 5%;
-    z-index: 1;
-  }
-  .trainings__item {
-    width: 220px;
-    height: 220px;
-    background-color: #FFFFFF;
-    margin-right: 20px;
-    -webkit-box-shadow: 2px 2px 2px #2D3136;
-            box-shadow: 2px 2px 2px #2D3136;
-    border: 1px solid #2D3136;
-    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .trainings__icon {
-    padding: 20px 0px 16px 10px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10px;
   }
   .trainings__text {
     color: #2D3136;
@@ -1346,10 +1561,11 @@ table {
     font-weight: 600;
     line-height: 20px;
     padding-left: 10px;
-    max-width: 150px;
+    max-width: 70%;
+    text-align: center;
   }
   .trainings__btn {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     background-color: #536BB1;
     width: 254px;
@@ -1359,10 +1575,10 @@ table {
     font-weight: 700;
     color: #FFFFFF;
     padding: 0px 10px 0px 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     position: relative;
     top: 0;
-    left: 5%;
+    left: 15%;
     z-index: 10;
     border: none;
     -webkit-transition: all 1s ease;
@@ -1380,7 +1596,7 @@ table {
     border: 2px solid #536BB1;
     position: relative;
     top: -45px;
-    left: 6%;
+    left: 17%;
     z-index: 2;
   }
   .trainings__btnborder:hover {
@@ -1542,13 +1758,13 @@ table {
   }
   .newtr___maintitle {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: 0px;
     position: relative;
     font-size: 24px;
   }
   .newtr___maintitle::after {
-    display: none;
+    display: block;
     content: '';
     width: 72px;
     height: 4px;
@@ -1649,13 +1865,13 @@ table {
   }
   .newtr___maintitle {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: 0px;
     position: relative;
     font-size: 24px;
   }
   .newtr___maintitle::after {
-    display: none;
+    display: block;
     content: '';
     width: 72px;
     height: 4px;
@@ -1785,7 +2001,7 @@ table {
 @media screen and (max-width: 1000px) {
   .monthsub {
     width: 100%;
-    height: 220px;
+    height: 500px;
     background-color: rgba(83, 107, 177, 0.1);
     margin-top: 50px;
     position: relative;
@@ -1803,7 +2019,7 @@ table {
     text-align: center;
   }
   .monthsub__title {
-    margin: 40px 150px;
+    margin: 40px 0px;
   }
   .monthsub__maintitle {
     text-align: left;
@@ -1812,13 +2028,13 @@ table {
     margin-left: 0px;
   }
   .monthsub__maintitle::after {
-    display: none;
+    display: block;
     content: '';
     width: 72px;
     height: 4px;
     background-color: #536BB1;
     position: absolute;
-    left: 0%;
+    left: 40%;
     bottom: -25px;
   }
   .monthsub__subtitle {
@@ -1835,10 +2051,130 @@ table {
     color: #536BB1;
   }
   .monthsub__img {
-    display: none;
+    display: block;
     position: absolute;
-    bottom: -5%;
-    left: 45%;
+    top: 30%;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .monthsub {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(83, 107, 177, 0.1);
+    margin-top: 50px;
+    position: relative;
+  }
+  .monthsub__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .monthsub__title {
+    margin: 40px 0px;
+  }
+  .monthsub__maintitle {
+    text-align: left;
+    position: relative;
+    font-size: 32px;
+    margin-left: 0px;
+  }
+  .monthsub__maintitle::after {
+    display: block;
+    content: '';
+    width: 72px;
+    height: 4px;
+    background-color: #536BB1;
+    position: absolute;
+    left: 40%;
+    bottom: -25px;
+  }
+  .monthsub__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2D3136;
+    margin: 45px 0px 0px 0px;
+  }
+  .monthsub__subtitle span {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #536BB1;
+  }
+  .monthsub__img {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .monthsub {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(83, 107, 177, 0.1);
+    margin-top: 50px;
+    position: relative;
+  }
+  .monthsub__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .monthsub__title {
+    margin: 40px 0px;
+  }
+  .monthsub__maintitle {
+    text-align: left;
+    position: relative;
+    font-size: 32px;
+    margin-left: 0px;
+  }
+  .monthsub__maintitle::after {
+    display: block;
+    content: '';
+    width: 72px;
+    height: 4px;
+    background-color: #536BB1;
+    position: absolute;
+    left: 40%;
+    bottom: -25px;
+  }
+  .monthsub__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2D3136;
+    margin: 45px 0px 0px 0px;
+  }
+  .monthsub__subtitle span {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #536BB1;
+  }
+  .monthsub__img {
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 10%;
   }
 }
 
