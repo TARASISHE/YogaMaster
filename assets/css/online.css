@@ -200,9 +200,9 @@ table {
 }
 
 .online__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .online__btnborder {
@@ -216,7 +216,8 @@ table {
 }
 
 .online__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
+  background-color: #536BB1;
 }
 
 .online__mainimg {
@@ -362,9 +363,9 @@ table {
     cursor: pointer;
   }
   .online__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .online__btnborder {
     width: 254px;
@@ -376,7 +377,8 @@ table {
     z-index: 2;
   }
   .online__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .online__mainimg {
     z-index: 10;
@@ -520,9 +522,9 @@ table {
     cursor: pointer;
   }
   .online__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .online__btnborder {
     width: 254px;
@@ -534,7 +536,8 @@ table {
     z-index: 2;
   }
   .online__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .online__mainimg {
     z-index: 10;
@@ -680,9 +683,9 @@ table {
     cursor: pointer;
   }
   .online__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .online__btnborder {
     width: 254px;
@@ -694,7 +697,8 @@ table {
     z-index: 2;
   }
   .online__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .online__mainimg {
     z-index: 10;
@@ -1095,9 +1099,7 @@ table {
 }
 
 .do__btn:hover {
-  background-color: #FFFFFF;
-  color: #536BB1;
-  border: 2px solid #536BB1;
+  opacity: 0.7;
 }
 
 .do__btnno {
@@ -1118,9 +1120,7 @@ table {
 }
 
 .do__btnno:hover {
-  background-color: #FFFFFF;
-  color: #FA3D3D;
-  border: 2px solid #FA3D3D;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1238,9 +1238,7 @@ table {
     cursor: pointer;
   }
   .do__btn:hover {
-    background-color: #FFFFFF;
-    color: #536BB1;
-    border: 2px solid #536BB1;
+    opacity: 0.7;
   }
   .do__btnno {
     text-align: center;
@@ -1259,9 +1257,7 @@ table {
     cursor: pointer;
   }
   .do__btnno:hover {
-    background-color: #FFFFFF;
-    color: #FA3D3D;
-    border: 2px solid #FA3D3D;
+    opacity: 0.7;
   }
 }
 
@@ -1383,9 +1379,7 @@ table {
     cursor: pointer;
   }
   .do__btn:hover {
-    background-color: #FFFFFF;
-    color: #536BB1;
-    border: 2px solid #536BB1;
+    opacity: 0.7;
   }
   .do__btnno {
     text-align: center;
@@ -1404,9 +1398,7 @@ table {
     cursor: pointer;
   }
   .do__btnno:hover {
-    background-color: #FFFFFF;
-    color: #FA3D3D;
-    border: 2px solid #FA3D3D;
+    opacity: 0.7;
   }
 }
 
@@ -1520,9 +1512,9 @@ table {
 }
 
 .trainings__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .trainings__btnborder {
@@ -1536,7 +1528,8 @@ table {
 }
 
 .trainings__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
+  background-color: #536BB1;
 }
 
 .trainings__grayblock {
@@ -1647,9 +1640,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -1661,7 +1654,8 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .trainings__grayblock {
     width: 90%;
@@ -1794,9 +1788,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -1808,7 +1802,8 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .trainings__grayblock {
     display: none;
@@ -1963,9 +1958,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -1977,7 +1972,8 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .trainings__grayblock {
     display: none;
@@ -2132,9 +2128,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -2146,7 +2142,8 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .trainings__grayblock {
     display: none;
@@ -2274,9 +2271,9 @@ table {
 }
 
 .videorow__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .videorow__btnborder {
@@ -2290,7 +2287,8 @@ table {
 }
 
 .videorow__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
+  background-color: #536BB1;
 }
 
 iframe {
@@ -2378,9 +2376,9 @@ iframe {
     cursor: pointer;
   }
   .videorow__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .videorow__btnborder {
     width: 254px;
@@ -2392,7 +2390,8 @@ iframe {
     z-index: 2;
   }
   .videorow__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
@@ -2476,9 +2475,9 @@ iframe {
     cursor: pointer;
   }
   .videorow__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .videorow__btnborder {
     width: 254px;
@@ -2490,7 +2489,8 @@ iframe {
     z-index: 2;
   }
   .videorow__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
@@ -2574,9 +2574,9 @@ iframe {
     cursor: pointer;
   }
   .videorow__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .videorow__btnborder {
     width: 254px;
@@ -2588,7 +2588,8 @@ iframe {
     z-index: 2;
   }
   .videorow__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 /*# sourceMappingURL=online.css.map */

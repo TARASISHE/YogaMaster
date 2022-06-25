@@ -41,6 +41,7 @@ table {
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .content {
@@ -681,7 +682,7 @@ table {
     height: 100%;
     position: relative;
     top: 0;
-    left: 15%;
+    left: 5%;
     margin-bottom: 50px;
   }
   .offers__catalogueimg {
@@ -712,7 +713,7 @@ table {
     height: 100%;
     position: relative;
     top: 0;
-    left: 15%;
+    left: 5%;
     margin-bottom: 50px;
   }
   .offers__bysubscribeimg {
@@ -753,7 +754,7 @@ table {
     height: 100%;
     position: relative;
     top: 0;
-    left: 15%;
+    left: 5%;
   }
   .offers__liveimg {
     width: 85%;
@@ -840,9 +841,9 @@ table {
 }
 
 .live__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .live__btnborder {
@@ -856,7 +857,8 @@ table {
 }
 
 .live__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
+  background-color: #536BB1;
 }
 
 .live__img {
@@ -933,9 +935,9 @@ table {
     cursor: pointer;
   }
   .live__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .live__btnborder {
     width: 254px;
@@ -947,7 +949,8 @@ table {
     z-index: 2;
   }
   .live__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .live__img {
     z-index: 20;
@@ -1031,9 +1034,9 @@ table {
     cursor: pointer;
   }
   .live__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .live__btnborder {
     width: 254px;
@@ -1045,7 +1048,8 @@ table {
     z-index: 2;
   }
   .live__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .live__img {
     z-index: 20;
@@ -1091,7 +1095,7 @@ table {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 0px;
   }
   .live__title {
     text-align: left;
@@ -1132,11 +1136,13 @@ table {
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     cursor: pointer;
+    top: 0px;
+    left: -15px;
   }
   .live__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .live__btnborder {
     width: 254px;
@@ -1144,16 +1150,17 @@ table {
     border: 2px solid #536BB1;
     position: relative;
     top: -45px;
-    left: 10px;
+    left: -4px;
     z-index: 2;
   }
   .live__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .live__img {
     z-index: 20;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .live__grayblock {
     display: none;
@@ -1359,7 +1366,7 @@ table {
   .video {
     position: relative;
     margin-top: 90px;
-    margin-left: 50px;
+    margin-left: 0px;
   }
   .video__block {
     display: -webkit-box;
@@ -1455,9 +1462,9 @@ table {
   .video {
     position: relative;
     margin-top: 90px;
-    margin-left: 50px;
+    margin-left: 0px;
   }
-  .video__block {
+  g .video__block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1709,9 +1716,9 @@ table {
 }
 
 .teachers__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .teachers__btnborder {
@@ -1725,7 +1732,8 @@ table {
 }
 
 .teachers__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
+  background-color: #536BB1;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1798,7 +1806,7 @@ table {
     margin-top: 65px;
     position: relative;
     top: 0;
-    left: 40%;
+    left: 34%;
     z-index: 10;
     border: none;
     -webkit-transition: all 1s ease;
@@ -1806,9 +1814,9 @@ table {
     cursor: pointer;
   }
   .teachers__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .teachers__btnborder {
     width: 254px;
@@ -1816,11 +1824,12 @@ table {
     border: 2px solid #536BB1;
     position: relative;
     top: -45px;
-    left: 41%;
+    left: 36%;
     z-index: 2;
   }
   .teachers__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
@@ -1894,7 +1903,7 @@ table {
     margin-top: 65px;
     position: relative;
     top: 0;
-    left: 10%;
+    left: 20%;
     z-index: 10;
     border: none;
     -webkit-transition: all 1s ease;
@@ -1902,9 +1911,9 @@ table {
     cursor: pointer;
   }
   .teachers__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .teachers__btnborder {
     width: 254px;
@@ -1912,11 +1921,12 @@ table {
     border: 2px solid #536BB1;
     position: relative;
     top: -45px;
-    left: 12%;
+    left: 22%;
     z-index: 2;
   }
   .teachers__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
@@ -2030,9 +2040,9 @@ table {
 }
 
 .trainings__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .trainings__btnborder {
@@ -2046,7 +2056,7 @@ table {
 }
 
 .trainings__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
 }
 
 .trainings__grayblock {
@@ -2157,9 +2167,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -2171,7 +2181,8 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .trainings__grayblock {
     width: 90%;
@@ -2304,9 +2315,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -2318,7 +2329,8 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
   .trainings__grayblock {
     display: none;
@@ -2416,7 +2428,7 @@ table {
     margin-left: 20px;
   }
   .trainings__item {
-    width: 100%;
+    width: 90%;
     height: 180px;
     background-color: #FFFFFF;
     margin-right: 30px;
@@ -2473,9 +2485,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -2487,7 +2499,7 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
   }
   .trainings__grayblock {
     display: none;
@@ -2585,7 +2597,7 @@ table {
     margin-left: 20px;
   }
   .trainings__item {
-    width: 100%;
+    width: 90%;
     height: 180px;
     background-color: #FFFFFF;
     margin-right: 30px;
@@ -2642,9 +2654,9 @@ table {
     cursor: pointer;
   }
   .trainings__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .trainings__btnborder {
     width: 254px;
@@ -2656,7 +2668,7 @@ table {
     z-index: 2;
   }
   .trainings__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
   }
   .trainings__grayblock {
     display: none;
@@ -2773,9 +2785,9 @@ table {
 }
 
 .article__btn:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  background-color: #FFFFFF;
+  border: 1px solid #536BB1;
+  color: #536BB1;
 }
 
 .article__btnborder {
@@ -2789,7 +2801,7 @@ table {
 }
 
 .article__btnborder:hover {
-  border: 2px solid #FFFF;
+  border: none;
 }
 
 @media screen and (max-width: 1290px) {
@@ -2888,9 +2900,9 @@ table {
     cursor: pointer;
   }
   .article__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .article__btnborder {
     width: 254px;
@@ -2902,7 +2914,8 @@ table {
     z-index: 2;
   }
   .article__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
@@ -3020,9 +3033,9 @@ table {
     cursor: pointer;
   }
   .article__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .article__btnborder {
     width: 254px;
@@ -3034,7 +3047,8 @@ table {
     z-index: 2;
   }
   .article__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
@@ -3152,9 +3166,9 @@ table {
     cursor: pointer;
   }
   .article__btn:hover {
-    opacity: 0.8;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    background-color: #FFFFFF;
+    border: 1px solid #536BB1;
+    color: #536BB1;
   }
   .article__btnborder {
     width: 254px;
@@ -3166,7 +3180,8 @@ table {
     z-index: 2;
   }
   .article__btnborder:hover {
-    border: 2px solid #FFFF;
+    border: none;
+    background-color: #536BB1;
   }
 }
 
